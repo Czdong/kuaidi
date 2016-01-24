@@ -1,0 +1,150 @@
+*{
+	padding:0;
+	margin: 0;
+}
+html,body,#container{
+	height: 100%;
+}
+#header{
+	position: relative;
+	width:100%;
+	margin-top: 10px;
+}
+#content{
+	clear:both;
+	position: relative;
+	width:610px;
+	margin:0 auto;
+	padding-top:90px;
+}
+.search input{
+    padding: 9px 8px;
+    width: 464px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 16px;
+    border:1px solid #448ef3;
+    display: inline-block;
+}
+.search a{
+	color:#fff;
+	font-size: 18px;
+	text-indent: 50px;
+	width:128px;
+	height:44px;
+	line-height: 43px;
+	background:url("../images/ico_index.png") #448ef3 no-repeat 13px -551px;
+	text-decoration: none;
+	display: inline-block;
+}
+.small div{
+	line-height: 18px;
+	height: 18px;
+    float:right;
+    padding:7px 8px;
+    font-size: 13px;
+}
+.daohang1{
+   text-align: center;
+   height: 36px;
+   background-color: #448ef3;
+   font-weight: bold;
+}
+.daohang2{
+  height: 32px;
+  width: 100%;
+  border-bottom: 2px solid #d7e7ff;
+  background-color: #e8f1ff;
+}
+#header ul{
+	height: 100%;
+	text-align: center;
+	list-style:none;
+	margin:0 auto;
+}
+#header ul a{
+	text-decoration: none;
+}
+li{
+	float: left;
+	height: 100%;
+}
+.small{
+	position: absolute;
+    top:0px;
+    right: 221px;
+}
+.daohang1 a{
+	 display: block;
+     padding: 0 35px;
+	 color:#fff;
+	 line-height: 36px;
+}
+.daohang1 ul{
+	width: 70%;
+}
+.daohang2 a{
+	color: #317ee7;
+	line-height: 32px;
+	padding:0 20px;
+	font-size: 14px;
+}
+#content .example{
+   margin:10px;
+   font-size: 15px;
+}
+#content .example a{
+	 text-decoration: none;
+	 color: #317ee7;
+}
+#content .example a:hover{
+	 text-decoration: underline;
+}
+.daohang2 .ul-span{
+	width:70%;
+	position: relative;
+	margin: 0 auto;
+}
+.underline{
+	position: absolute;
+    top: 30px;
+    display: block;
+    height: 2px;
+    overflow: hidden;
+    background-color: #448ef3;
+}
+.logo{
+	position: relative;
+	width: 70%;
+	margin:0 auto;
+}
+.logo2{
+	position:absolute;
+	bottom:-3px;
+}
+.daohang1 li.on{
+	background-color: orange;
+	border-right:3px solid #fff;
+	border-left:3px solid #fff;
+}
+.daohang1 li:hover{
+  text-decoration: blink;
+}
+#message{
+	width: 100%;
+	border-collapse: collapse;
+    border: 1px solid #90bfff;
+}
+#message td{
+	padding: 10px;
+    color: #878787;
+    font-size: 13px;
+    border-bottom: 1px solid #d8d8d8;
+    background-color: #fbfbfb;
+}
+#message tr{
+	border:1px solid #fff;
+}
+#message th{
+		border:1px solid #fff;
+}
